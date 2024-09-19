@@ -55,7 +55,6 @@ class ScreenUtilProvider extends InheritedModel<_ScreenUtilProviderAspect> {
 
   static double widthScaleOf(BuildContext context) {
     final widthScale = _of(context, _ScreenUtilProviderAspect.width).widthScale;
-    print('widthScaleOf: $widthScale');
     return widthScale;
   }
 
